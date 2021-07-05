@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<style>
+    .background {
+        background-color: rgb(66, 214, 66);
+        color: black;
+    }
+</style>
+
+<body>
+
+    <form enctype="multipart/form-data" id="form">
+        <label for="name">Введите название приемки:</label>
+        <input name="name" type="text" id="name" /><br><br>
+        <label for="file">Выберете файл :</label>
+        <input name="file" type="file" id="loadFile" /><br><br>
+        Выберете поставщика:<select name="agent" id="agent">
+            <option value="Предваритеный счет">Предваритеный счет</option>
+            <option value="АРТ">АРТ</option>
+            <option value="Биг">Биг</option>
+            <option value="Бомббар">Бомббар</option>
+            <option value="Ганза Спорт">Ганза Спорт</option>
+            <option value="Ёбатончики">Ёбатончики</option>
+            <option value="Клуб Здоровья">Клуб Здоровья</option>
+            <option value="ОптСтронг">ОптСтронг</option>
+            <option value="Сойка">Сойка</option>
+            <option value="Спортпит-Инвест">Спортпит-Инвест</option>
+            <option value="СпортФуд">СпортФуд</option>
+            <option value="ФитбарОпт">ФитбарОпт</option>
+            <option value="ФитХаус">ФитХаус</option>
+        </select>
+        <input type="submit" value="Отправить"></p>
+    </form>
+
+    <div id="exceptions">
+
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
